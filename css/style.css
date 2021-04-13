@@ -1,0 +1,101 @@
+#wrapper {
+    position: relative;
+    overflow-x: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    padding: 0 20px;
+    text-align: left;
+}
+.header_logo_first-part {
+    font-weight: bold;
+    color: grey;
+}
+.header_logo_second-part {
+    color: #888888;
+}
+.logo_button {
+    text-decoration: none;
+    display: inline-block;
+}
+.fa-facebook-f {
+    color: white;
+}
+.header_nav_list {
+    background-color: #08082f;
+    list-style: none;
+    display: inline-block;
+}
+.header ul {
+    padding: 10px 0;
+    width: 100%;
+}
+.header a {
+    text-decoration: none;
+    color: white;
+}
+.header li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.header_nav_list_icon {
+    float: right;
+}
+.banner {
+    background: url("../images/square.jpg");
+    height: 400px;
+    margin: 20px;
+}
+.main_content_about {
+    margin: 0 2.5% 1% 2%;
+}
+.main_content_services {
+    margin: 0 1% 1% 2.5%;
+}
+.main_content_subject {
+    margin: 0 1% 1% 2%;
+    background-color: lavender;
+    width: 100%;
+    overflow: auto;
+}
+.main_content_subject_navigation {
+    width: 30%;
+    margin: 0 1%;
+
+}
+.main_content_subject_navigation a{
+    text-decoration: none;
+    color: black;
+}
+.main_content_subject_navigation li{
+    border-bottom: 2px solid black;
+    display: block;
+    font-weight: 50;
+    background-color: slategray;
+}
+.main_content_subject_navigation,
+.main_content_subject_content,
+.main_content_subject_sub-header {
+}
+.main_content_subject_container {
+    width: 60%;
+}
+.main_content_about,
+.main_content_company,
+.main_content_services {
+    background-color: lavender;
+    display: inline-block;
+    width: 30%;
+}
+.main_gallery {
+    text-align: center;
+}
+.main_gallery img {
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    width: 20%;
+}
+
+
+
